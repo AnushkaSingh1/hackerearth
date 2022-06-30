@@ -94,3 +94,128 @@ YES
 Time Limit: 1
 Memory Limit: 256
 Source Limit:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include<bits/stdc++.h>
+
+using namespace std;
+
+bool isPalindrome(string s,int len){
+
+    int i=0;
+
+    while(i<(len/2)){
+
+        if(s[i]!=s[len-i])return 0;
+
+        i++;
+
+    }
+
+    return 1;
+
+}
+
+int main(){
+
+    ios_base::sync_with_stdio(false);
+
+    cin.tie(NULL);
+
+    string s;
+
+    cin>>s;
+
+    int len=s.length()-1;
+
+    if(isPalindrome(s,len))cout<<"YES";
+
+    else cout<<"NO";
+
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+
+ 
+
+int main()
+
+{
+
+    string s, rev;
+
+    cin >> s;
+
+    for (int i = s.length() - 1; i >= 0; i--)
+
+    {
+
+        rev = rev + s[i];
+
+    }
+
+    if (s == rev)
+
+    {
+
+        cout << "YES" << endl;
+
+    }
+
+    else
+
+    {
+
+        cout << "NO" << endl;
+
+    }
+
+    return 0;
+
+}
