@@ -105,3 +105,48 @@ return 0;
  
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Problem
+A natural number is special if it consists of only digits  and . Find the number of pairs of сoprime special numbers  such that . 
+
+Input format
+
+The first line contains an integer  ().
+
+Output format
+
+Print a single number denoting the answer to the problem.
+
+Sample Input
+10
+Sample Output
+1
+Time Limit: 1
+Memory Limit: 256
+Source Limit:
+Explanation
+Clarification: https://en.wikipedia.org/wiki/Coprime_integers
+
+Answer = 1 because 4 and 7  10 and gcd(4,7) = 1
+
+
